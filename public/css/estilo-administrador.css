@@ -1,0 +1,26 @@
+.sidenav{
+  background-color: #282828!important;
+}
+.collapsible-body{
+  padding: 0px!important;
+  background: #FF4906;
+}
+.collapsible-body a{
+  color: #fff!important;
+}
+.cerrar-sesion:hover{
+ color: black!important;
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}              
+
+                               

@@ -1,0 +1,186 @@
+#page-top >section{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.bg-inverse {
+    background-color: #151414  !important;*/
+    /* Firefox */
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+    /*box shadow*/
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)!important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)!important;
+    /*line bottom color*/
+    border-bottom-style: solid;
+    border-bottom-color: #FF4906;
+}
+
+#mainNav{
+    transition: background-color .60s ease;
+}
+.shadow-none{
+    box-shadow:none!important;
+}
+.navbar-fixed .nav-wrapper .container > ul > li > a:hover {
+  color: #e65100 ;
+}
+.navbar-fixed .nav-wrapper .container > ul > li > a.active {
+  color: #e65100 ;
+}
+nav ul a:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+/*imagen de inicio */
+header{
+    height: 100vh;
+    background: url(../imagenes/taller2.png);
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 670px){
+    header{
+        min-height: 500px;
+    }
+}
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+.tabs .indicator{
+    background-color: #1a237e;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+}
+/*fin imagen de inicio */
+/*---------------------------------------------------------------------------------------------------------------*/
+/*estilos de footer*/
+.dark{
+    background-color: #151414;
+}
+/*fin estilos de footer*/
+.orange-opticar{
+    background-color: #FF4806!important;
+}
+.text-orage-opticar{
+    color: #FF4806!important;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*estilo mision y vision*/
+.myv2 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: url(../imagenes/taller1.png) center center;
+        background-size: auto auto;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}
+.m-q {
+    width: 50%;
+    padding: 60px 0;
+    float: left;
+    background: rgba(233, 135, 90,0.31);
+
+}
+.card-content{
+  padding: 0 24px!important;
+}
+.v-q {
+    width: 50%;
+    padding: 60px 0;
+    float: left;
+    background: rgba(72, 174, 172,0.31);
+    position: relative;
+}
+
+.center-mv {
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.center-mv h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+}
+
+.center-mv h2 {
+    display: block;
+    padding: 0 0 15px 0;
+    position: relative;
+}
+.center-mv {
+    color: #fff;
+}
+.vq-mq-initial{
+    height: 288px;
+}
+.title-vq-mq{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.negrita{
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+    .v-q::after {
+        display: none;
+    }
+}
+
+@media (max-width: 570px) {
+    .v-q::after {
+        display: none;
+    }
+}
+
+@media (max-width: 472px) {
+
+.center-mv{
+  width: 90%!important;
+}
+.v-q {
+height: 350px!important;
+}
+.m-q{
+height: 350px!important;  
+}
+}
+
+@media (max-width: 940px) {
+
+.m-q{
+  width:100%;
+  float:none;
+  margin:0 auto;}
+.v-q{
+  width:100%;
+  float:none;
+  margin:0 auto;}
+}
+/*fin estilo mision y vision*/
+.btn-big{
+    width: 100px;
+    height:100px;
+}
+.btn-big i{
+    line-height: 1.7!important;
+    font-size: 4.0rem;
+}
